@@ -1,0 +1,17 @@
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\bin\x86\Debug\QuickTab.Models.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\bin\x86\Debug\QuickTab.Models.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\bin\x86\Debug\QuickTab.Models.pri
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\QuickTab.Models.csprojResolveAssemblyReference.cache
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\QuickTab.Models.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\QuickTab.Models.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\priconfig.xml
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\layout.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\resources.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\pri.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\qualifiers.txt
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt

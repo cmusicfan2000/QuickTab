@@ -1,0 +1,16 @@
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\bin\x86\Debug\QuickTab.Generics.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\bin\x86\Debug\QuickTab.Generics.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\bin\x86\Debug\QuickTab.Generics.pri
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\QuickTab.Generics.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\QuickTab.Generics.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\priconfig.xml
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\priconfig.xml.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\layout.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\layout.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\resources.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\resources.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\pri.resfiles
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\pri.resfiles.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\qualifiers.txt
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\qualifiers.txt.intermediate
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
