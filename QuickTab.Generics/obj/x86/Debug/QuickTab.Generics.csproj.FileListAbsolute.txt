@@ -14,3 +14,4 @@ C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\pri.resfile
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\qualifiers.txt
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\obj\x86\Debug\QuickTab.Generics.csprojResolveAssemblyReference.cache

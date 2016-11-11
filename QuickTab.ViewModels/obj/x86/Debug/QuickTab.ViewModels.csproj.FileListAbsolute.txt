@@ -15,3 +15,9 @@ C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\obj\x86\Debug\pri.resfi
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\obj\x86\Debug\qualifiers.txt
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\obj\x86\Debug\qualifiers.txt.intermediate
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\obj\x86\Debug\MultipleQualifiersPerDimensionFound.txt
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Generics.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Models.dll
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Generics.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Generics.pri
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Models.pdb
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Models.pri

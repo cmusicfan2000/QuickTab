@@ -111,6 +111,16 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\QuickTab.ViewModels.rd.xml" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\QuickTab.Generics\QuickTab.Generics.csproj">
+      <Project>{e293e3f9-c378-4227-adee-a730d00f3262}</Project>
+      <Name>QuickTab.Generics</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\QuickTab.Models\QuickTab.Models.csproj">
+      <Project>{1f8b12ae-0e14-4edd-a495-566322e55985}</Project>
+      <Name>QuickTab.Models</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

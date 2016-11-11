@@ -337,6 +337,9 @@
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.ViewModels.dll">
       <PackagePath>QuickTab.ViewModels.dll</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\bin\x86\Debug\QuickTab.Generics.dll">
+      <PackagePath>QuickTab.Generics.dll</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
     </AppxPackagedFile>
@@ -369,6 +372,9 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\bin\x86\Debug\QuickTab.Views.xr.xml">
       <PackagePath>QuickTab.Views.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\bin\x86\Debug\QuickTab.Models.dll">
+      <PackagePath>QuickTab.Models.dll</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>
