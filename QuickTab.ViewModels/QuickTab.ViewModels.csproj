@@ -107,7 +107,9 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ChordLineViewModel.cs" />
     <Compile Include="CompositionViewModel.cs" />
+    <Compile Include="LyricViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\QuickTab.ViewModels.rd.xml" />
   </ItemGroup>

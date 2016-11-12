@@ -4,6 +4,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTab.Views", "QuickTab.Views\QuickTab.Views.csproj", "{B142FF3A-3153-448E-9E7A-9BE7BBF3C6E0}"
+	ProjectSection(ProjectDependencies) = postProject
+		{AC58E203-A976-4EF2-9F0D-2FFDF44CAF44} = {AC58E203-A976-4EF2-9F0D-2FFDF44CAF44}
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTab.Generics", "QuickTab.Generics\QuickTab.Generics.csproj", "{E293E3F9-C378-4227-ADEE-A730D00F3262}"
 EndProject

@@ -4,13 +4,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using QuickTab.Generics;
+using QuickTab.Models;
 
-namespace QuickTab.Models
+namespace QuickTab.ViewModels
 {
-    public class Lyric
+    public class LyricViewModel : ICompositionLine
     {
         #region [ Properties ]
-        private int _lineNumber;
+        private Lyric _model;
+
         /// <summary>
         /// The line number on which this lyrics resides
         /// Used to sort lyrics and other ICompositionLines
@@ -19,18 +21,10 @@ namespace QuickTab.Models
         {
             get
             {
-                return _lineNumber;
-            }
-            private set
-            {
-                if(value > 0)
-                {
-                    _lineNumber = value;
-                }
+                return _model.LineNumber;
             }
         }
-
-        private string _content;
+        
         /// <summary>
         /// The lyric content
         /// </summary>
@@ -38,14 +32,7 @@ namespace QuickTab.Models
         {
             get
             {
-                return _content;
-            }
-            private set
-            {
-                if(value != null)
-                {
-                    _content = value;
-                }
+                return _model.Content;
             }
         }
         #endregion
@@ -56,10 +43,9 @@ namespace QuickTab.Models
         /// </summary>
         /// <param name="lineNumber">The line on which the lyric resides</param>
         /// <param name="lyricContent">The contents of the lyric</param>
-        public Lyric(int lineNumber, string lyricContent)
+        public LyricViewModel(int lineNumber, string lyricContent)
         {
-            LineNumber = lineNumber;
-            Content = lyricContent;
+            _model = new Lyric(lineNumber, lyricContent);
         }
         #endregion
     }

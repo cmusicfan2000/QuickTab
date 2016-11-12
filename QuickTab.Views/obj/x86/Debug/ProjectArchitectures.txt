@@ -1,4 +1,5 @@
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\QuickTab.Generics.csproj;x86
+C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\QuickTab.Generics.csproj;x86
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Models\QuickTab.Models.csproj;x86
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\QuickTab.ViewModels.csproj;x86
 C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\QuickTab.Views.csproj;x86

@@ -127,6 +127,10 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\QuickTab.Generics\QuickTab.Generics.csproj">
+      <Project>{e293e3f9-c378-4227-adee-a730d00f3262}</Project>
+      <Name>QuickTab.Generics</Name>
+    </ProjectReference>
     <ProjectReference Include="..\QuickTab.ViewModels\QuickTab.ViewModels.csproj">
       <Project>{ac58e203-a976-4ef2-9f0d-2ffdf44caf44}</Project>
       <Name>QuickTab.ViewModels</Name>

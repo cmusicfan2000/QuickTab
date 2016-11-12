@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace QuickTab.Models
+namespace QuickTab.Generics
 {
-    public class Class1
+    public class ViewModelBase
     {
     }
 }
