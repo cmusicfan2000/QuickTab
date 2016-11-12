@@ -5,7 +5,7 @@ using QuickTab.Models;
 
 namespace QuickTab.ViewModels
 {
-    public class ChordLineViewModel : ICompositionLine
+    public class ChordLineViewModel : ViewModelBase, ICompositionLine
     {
         #region [ Properties ]
         private ObservableCollection<Chord> _models;
@@ -72,7 +72,7 @@ namespace QuickTab.ViewModels
         {
             _models.Add(new Chord(name, LineNumber, position, precedingSpaces));
 
-            //TODO: Call NotifyPropertyChanged on Content to inform the view that it has changed
+            NotifyPropertyChanged("Content");
         }
         #endregion
     }
