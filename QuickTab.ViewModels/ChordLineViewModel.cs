@@ -5,6 +5,9 @@ using QuickTab.Models;
 
 namespace QuickTab.ViewModels
 {
+    /// <summary>
+    /// Represents a list of chords which are seperated by specific numbers of spaces
+    /// </summary>
     public class ChordLineViewModel : ViewModelBase, ICompositionLine
     {
         #region [ Properties ]
