@@ -62,7 +62,7 @@
 
         private int _precedingSpaces;
         /// <summary>
-        /// The number of spaces receding this chord
+        /// The number of spaces preceding this chord
         /// </summary>
         public int PrecedingSpaces
         {
