@@ -19,6 +19,7 @@
                 <DataTemplate>
                     <TextBlock Text="{Binding Content}"
                                Foreground="White"
+                               FontFamily="Courier New"
                                TextWrapping="Wrap"/>
                 </DataTemplate>
             </ListView.ItemTemplate>

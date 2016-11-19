@@ -30,6 +30,7 @@
     <RootType FullName="Windows.UI.Xaml.Controls.TextBlock">
       <RootProperty Name="Text" />
       <RootProperty Name="Foreground" />
+      <RootProperty Name="FontFamily" />
       <RootProperty Name="TextWrapping" />
     </RootType>
     <RootType FullName="QuickTab.Views.Compositions" />

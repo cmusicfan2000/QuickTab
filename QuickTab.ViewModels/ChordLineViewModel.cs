@@ -41,8 +41,9 @@ namespace QuickTab.ViewModels
 
                 foreach(Chord c in _models)
                 {
-                    lienContent += c.Name.PadRight(c.PrecedingSpaces);
+                    lienContent += c.Name.PadLeft(c.PrecedingSpaces + c.Name.Length);
                 }
+
 
                 return lienContent;
             }
