@@ -56,7 +56,7 @@ namespace QuickTab.ViewModels
             Lines.Add(new LyricViewModel(4, " and I believe there's a light coming back around again"));
             Lines.Add(new LyricViewModel(5, " And I believe you're right cause I believe there's a way"));
             Lines.Add(new LyricViewModel(6, " And is believe is might have some catching up to do"));
-            
+            Lines.Add(testTab);
         }
         #endregion
     }

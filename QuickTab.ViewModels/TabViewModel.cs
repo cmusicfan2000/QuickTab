@@ -14,7 +14,7 @@ namespace QuickTab.ViewModels
         /// <summary>
         /// A list of lines of tabliture
         /// </summary>
-        private List<TabLine> _models;
+        private List<TabLine> _models = new List<TabLine>();
 
         /// <summary>
         /// The tab in the form of a string
@@ -69,7 +69,6 @@ namespace QuickTab.ViewModels
                 // - Increment the number of preceeding spaces for the next note
                 // ELSE IF this character is a number
                 // - add the number to the fret string (this handles frets > 9)
-                // - Reset the number of preceeding spaces
                 // ENDIF
                 if(c == '-')
                 {
@@ -86,6 +85,9 @@ namespace QuickTab.ViewModels
 
                         // Reset the fret number
                         fret = string.Empty;
+
+                        // Reset the number of preceeding spaces
+                        preceedingSpaces = 1;
                     }
 
                     // Increment the number of preceeding spaces
@@ -94,7 +96,6 @@ namespace QuickTab.ViewModels
                 else if(char.IsNumber(c))
                 {
                     fret += c;
-                    preceedingSpaces = 0;
                 }
             }
 

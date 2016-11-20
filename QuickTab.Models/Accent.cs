@@ -2,43 +2,18 @@
 
 namespace QuickTab.Models
 {
-    public class Note : ITabLineItem
+    public class Accent : ITabLineItem
     {
         #region [ Properties ]
-        private int _fret;
-        /// <summary>
-        /// The fret to play to make the note
-        /// </summary>
-        public int Fret
-        {
-            get
-            {
-                return _fret;
-            }
-            private set
-            {
-                if (value >= 0)
-                {
-                    _fret = value;
-                }
-            }
-        }
-
         /// <summary>
         /// Used to sort a group of notes on the same line
         /// </summary>
         public int Order { get; private set; }
-
+        
         /// <summary>
-        /// This note as text
+        /// The text of the accent
         /// </summary>
-        public string Text
-        {
-            get
-            {
-                return Fret.ToString();
-            }
-        }
+        public string Text { get; private set; }
 
         private int _preceedingSpaces;
         /// <summary>
@@ -52,7 +27,7 @@ namespace QuickTab.Models
             }
             set
             {
-                if(value > 0)
+                if (value > 0)
                 {
                     _preceedingSpaces = value;
                 }
@@ -62,15 +37,15 @@ namespace QuickTab.Models
 
         #region [ Constructors ]
         /// <summary>
-        /// Creates a note with the given fret and order
+        /// Generic constructor
         /// </summary>
-        /// <param name="fret">The fret number to play</param>
+        /// <param name="accentText">The string content of the accent</param>
         /// <param name="order">The order of this accent in relation to other ITabLineItems</param>
-        /// <param name="preceedingSpaces">The number of spaces which preceed this note</param>
-        public Note(int fret, int order, int preceedingSpaces)
+        /// <param name="preceedingSpaces">The number of spaces that preceed this accent</param>
+        public Accent(string accentText, int order, int preceedingSpaces)
         {
-            Fret = fret;
             Order = order;
+            Text = accentText;
             PreceedingSpaces = preceedingSpaces;
         }
         #endregion

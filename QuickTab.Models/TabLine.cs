@@ -11,10 +11,10 @@ namespace QuickTab.Models
     {
         #region [ Properties ]
         /// <summary>
-        /// A collection of notes that are on this line of tabliture
+        /// A collection of items that are on this line of tabliture
         /// </summary>
-        private List<Note> _notes = new List<Note>();
-\
+        private List<ITabLineItem> _items = new List<ITabLineItem>();
+
         /// <summary>
         /// Used to arrange strings of tabliture within a tab
         /// </summary>
@@ -27,11 +27,12 @@ namespace QuickTab.Models
         {
             get
             {
+                // NOTE: in the view, a tabitem would bind to a datacontext that is either null or an ITabLineItem
                 string c = string.Empty;
 
-                foreach(Note n in _notes)
+                foreach(ITabLineItem i in _items)
                 {
-                    c += n.Fret.ToString().PadLeft(n.PrecedingSpaces);
+                    c += i.Text.PadLeft(i.PreceedingSpaces, '-');
                 }
 
                 return c;
@@ -52,14 +53,25 @@ namespace QuickTab.Models
 
         #region [ Methods ]
         /// <summary>
-        /// Adds a note to the list of 
+        /// Adds a note to the list of items on this line
         /// </summary>
         /// <param name="fret">The fret number to play</param>
         /// <param name="predeedingSpaces">The number of spaces preceeding this note</param>
-        /// <param name="order">Used to sort a line of notes in a tab</param>
+        /// <param name="order">Used to sort a line of ITabLineItems in a tab line</param>
         public void AddNote(int fret, int preceedingSpaces, int order)
         {
-            _notes.Add(new Note(fret, preceedingSpaces, order));
+            _items.Add(new Note(fret, preceedingSpaces, order));
+        }
+
+        /// <summary>
+        /// Adds an acent to the list of items on this line
+        /// </summary>
+        /// <param name="accentText">The accent text</param>
+        /// <param name="preceedingSpaces">The number of spaces preceeding this accent</param>
+        /// <param name="order">Used to sort a line of ITabLineItems in a tab line</param>
+        public void AddAccent(string accentText, int preceedingSpaces, int order)
+        {
+            _items.Add(new Accent(accentText, order, preceedingSpaces));
         }
         #endregion
     }
