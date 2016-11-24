@@ -107,8 +107,10 @@
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Accent.cs" />
     <Compile Include="Chord.cs" />
     <Compile Include="Lyric.cs" />
+    <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\QuickTab.Models.rd.xml" />
   </ItemGroup>

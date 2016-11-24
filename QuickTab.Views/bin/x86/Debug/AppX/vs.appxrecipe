@@ -28,13 +28,13 @@
     <AppXManifest Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2016-11-24T06:18:29.774</Modified>
+      <Modified>2016-11-24T05:46:45.211</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\bin\x86\Debug\QuickTab.Views.exe">
       <PackagePath>entrypoint\QuickTab.Views.exe</PackagePath>
-      <Modified>2016-11-24T06:18:28.171</Modified>
+      <Modified>2016-11-24T05:46:44.826</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\.nuget\packages\Microsoft.CSharp\4.0.0\lib\netcore50\Microsoft.CSharp.dll">
       <PackagePath>Microsoft.CSharp.dll</PackagePath>
@@ -450,15 +450,15 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Generics\bin\x86\Debug\QuickTab.Generics.dll">
       <PackagePath>QuickTab.Generics.dll</PackagePath>
-      <Modified>2016-11-24T06:18:24.819</Modified>
+      <Modified>2016-11-24T05:45:49.565</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.ViewModels.dll">
       <PackagePath>QuickTab.ViewModels.dll</PackagePath>
-      <Modified>2016-11-24T06:18:26.087</Modified>
+      <Modified>2016-11-24T05:46:42.707</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.ViewModels\bin\x86\Debug\QuickTab.Models.dll">
       <PackagePath>QuickTab.Models.dll</PackagePath>
-      <Modified>2016-11-24T06:18:25.495</Modified>
+      <Modified>2016-11-24T05:45:50.133</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\Properties\Default.rd.xml">
       <PackagePath>Properties\Default.rd.xml</PackagePath>
@@ -508,11 +508,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\bin\x86\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2016-11-24T06:18:29.450</Modified>
+      <Modified>2016-11-24T05:45:55.125</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\cmusi\Source\Repos\QuickTab\QuickTab.Views\bin\x86\Debug\Core\QuickTab.Views.exe">
       <PackagePath>QuickTab.Views.exe</PackagePath>
-      <Modified>2016-11-24T06:18:29.768</Modified>
+      <Modified>2016-11-24T05:46:45.206</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

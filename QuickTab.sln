@@ -13,6 +13,10 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTab.Models", "QuickTab.Models\QuickTab.Models.csproj", "{1F8B12AE-0E14-4EDD-A495-566322E55985}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QuickTab.ViewModels", "QuickTab.ViewModels\QuickTab.ViewModels.csproj", "{AC58E203-A976-4EF2-9F0D-2FFDF44CAF44}"
+	ProjectSection(ProjectDependencies) = postProject
+		{1F8B12AE-0E14-4EDD-A495-566322E55985} = {1F8B12AE-0E14-4EDD-A495-566322E55985}
+		{E293E3F9-C378-4227-ADEE-A730D00F3262} = {E293E3F9-C378-4227-ADEE-A730D00F3262}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
