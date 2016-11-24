@@ -26,7 +26,7 @@ namespace QuickTab.ViewModels
 
                 foreach (ICompositionLineItem cli in _models)
                 {
-                    lineContent += cli.Text.PadLeft(cli.Text.Length + cli.PreceedingSpaces, '-');
+                    lineContent += cli.Text.PadLeft(cli.Text.Length + cli.PreceedingSpaces);
                 }
 
                 return lineContent;

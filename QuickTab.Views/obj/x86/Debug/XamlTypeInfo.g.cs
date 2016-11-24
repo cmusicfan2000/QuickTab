@@ -132,29 +132,27 @@ namespace QuickTab.Views.QuickTab_Views_XamlTypeInfo
 
         private void InitTypeTables()
         {
-            _typeNameTable = new string[10];
+            _typeNameTable = new string[9];
             _typeNameTable[0] = "QuickTab.ViewModels.CompositionViewModel";
             _typeNameTable[1] = "Object";
             _typeNameTable[2] = "System.Collections.ObjectModel.ObservableCollection`1<QuickTab.Generics.ICompositionLine>";
             _typeNameTable[3] = "System.Collections.ObjectModel.Collection`1<QuickTab.Generics.ICompositionLine>";
             _typeNameTable[4] = "QuickTab.Generics.ICompositionLine";
-            _typeNameTable[5] = "Int32";
-            _typeNameTable[6] = "String";
-            _typeNameTable[7] = "QuickTab.Views.Compositions";
-            _typeNameTable[8] = "Windows.UI.Xaml.Controls.Page";
-            _typeNameTable[9] = "Windows.UI.Xaml.Controls.UserControl";
+            _typeNameTable[5] = "String";
+            _typeNameTable[6] = "QuickTab.Views.Compositions";
+            _typeNameTable[7] = "Windows.UI.Xaml.Controls.Page";
+            _typeNameTable[8] = "Windows.UI.Xaml.Controls.UserControl";
 
-            _typeTable = new global::System.Type[10];
+            _typeTable = new global::System.Type[9];
             _typeTable[0] = typeof(global::QuickTab.ViewModels.CompositionViewModel);
             _typeTable[1] = typeof(global::System.Object);
             _typeTable[2] = typeof(global::System.Collections.ObjectModel.ObservableCollection<global::QuickTab.Generics.ICompositionLine>);
             _typeTable[3] = typeof(global::System.Collections.ObjectModel.Collection<global::QuickTab.Generics.ICompositionLine>);
             _typeTable[4] = typeof(global::QuickTab.Generics.ICompositionLine);
-            _typeTable[5] = typeof(global::System.Int32);
-            _typeTable[6] = typeof(global::System.String);
-            _typeTable[7] = typeof(global::QuickTab.Views.Compositions);
-            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.Page);
-            _typeTable[9] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
+            _typeTable[5] = typeof(global::System.String);
+            _typeTable[6] = typeof(global::QuickTab.Views.Compositions);
+            _typeTable[7] = typeof(global::Windows.UI.Xaml.Controls.Page);
+            _typeTable[8] = typeof(global::Windows.UI.Xaml.Controls.UserControl);
         }
 
         private int LookupTypeIndexByName(string typeName)
@@ -192,7 +190,7 @@ namespace QuickTab.Views.QuickTab_Views_XamlTypeInfo
         private object Activate_0_CompositionViewModel() { return new global::QuickTab.ViewModels.CompositionViewModel(); }
         private object Activate_2_ObservableCollection() { return new global::System.Collections.ObjectModel.ObservableCollection<global::QuickTab.Generics.ICompositionLine>(); }
         private object Activate_3_Collection() { return new global::System.Collections.ObjectModel.Collection<global::QuickTab.Generics.ICompositionLine>(); }
-        private object Activate_7_Compositions() { return new global::QuickTab.Views.Compositions(); }
+        private object Activate_6_Compositions() { return new global::QuickTab.Views.Compositions(); }
         private void VectorAdd_2_ObservableCollection(object instance, object item)
         {
             var collection = (global::System.Collections.Generic.ICollection<global::QuickTab.Generics.ICompositionLine>)instance;
@@ -243,31 +241,26 @@ namespace QuickTab.Views.QuickTab_Views_XamlTypeInfo
 
             case 4:   //  QuickTab.Generics.ICompositionLine
                 userType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlUserType(this, typeName, type, null);
-                userType.AddMemberName("LineNumber");
                 userType.AddMemberName("Content");
                 xamlType = userType;
                 break;
 
-            case 5:   //  Int32
+            case 5:   //  String
                 xamlType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 6:   //  String
-                xamlType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlSystemBaseType(typeName, type);
-                break;
-
-            case 7:   //  QuickTab.Views.Compositions
+            case 6:   //  QuickTab.Views.Compositions
                 userType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlUserType(this, typeName, type, GetXamlTypeByName("Windows.UI.Xaml.Controls.Page"));
-                userType.Activator = Activate_7_Compositions;
+                userType.Activator = Activate_6_Compositions;
                 userType.SetIsLocalType();
                 xamlType = userType;
                 break;
 
-            case 8:   //  Windows.UI.Xaml.Controls.Page
+            case 7:   //  Windows.UI.Xaml.Controls.Page
                 xamlType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
 
-            case 9:   //  Windows.UI.Xaml.Controls.UserControl
+            case 8:   //  Windows.UI.Xaml.Controls.UserControl
                 xamlType = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlSystemBaseType(typeName, type);
                 break;
             }
@@ -280,12 +273,7 @@ namespace QuickTab.Views.QuickTab_Views_XamlTypeInfo
             var that = (global::QuickTab.ViewModels.CompositionViewModel)instance;
             return that.Lines;
         }
-        private object get_1_ICompositionLine_LineNumber(object instance)
-        {
-            var that = (global::QuickTab.Generics.ICompositionLine)instance;
-            return that.LineNumber;
-        }
-        private object get_2_ICompositionLine_Content(object instance)
+        private object get_1_ICompositionLine_Content(object instance)
         {
             var that = (global::QuickTab.Generics.ICompositionLine)instance;
             return that.Content;
@@ -304,16 +292,10 @@ namespace QuickTab.Views.QuickTab_Views_XamlTypeInfo
                 xamlMember.Getter = get_0_CompositionViewModel_Lines;
                 xamlMember.SetIsReadOnly();
                 break;
-            case "QuickTab.Generics.ICompositionLine.LineNumber":
-                userType = (global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlUserType)GetXamlTypeByName("QuickTab.Generics.ICompositionLine");
-                xamlMember = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlMember(this, "LineNumber", "Int32");
-                xamlMember.Getter = get_1_ICompositionLine_LineNumber;
-                xamlMember.SetIsReadOnly();
-                break;
             case "QuickTab.Generics.ICompositionLine.Content":
                 userType = (global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlUserType)GetXamlTypeByName("QuickTab.Generics.ICompositionLine");
                 xamlMember = new global::QuickTab.Views.QuickTab_Views_XamlTypeInfo.XamlMember(this, "Content", "String");
-                xamlMember.Getter = get_2_ICompositionLine_Content;
+                xamlMember.Getter = get_1_ICompositionLine_Content;
                 xamlMember.SetIsReadOnly();
                 break;
             }
