@@ -112,7 +112,6 @@
     <Compile Include="Lyric.cs" />
     <Compile Include="Note.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TabLine.cs" />
     <EmbeddedResource Include="Properties\QuickTab.Models.rd.xml" />
   </ItemGroup>
   <ItemGroup>

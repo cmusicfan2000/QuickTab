@@ -108,7 +108,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ICompositionLine.cs" />
-    <Compile Include="ITabLineItem.cs" />
+    <Compile Include="ICompositionLineItem.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ViewModelBase.cs" />
     <EmbeddedResource Include="Properties\QuickTab.Generics.rd.xml" />

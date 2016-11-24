@@ -2,7 +2,7 @@
 
 namespace QuickTab.Models
 {
-    public class Note : ITabLineItem
+    public class Note : ICompositionLineItem
     {
         #region [ Properties ]
         private int _fret;
@@ -23,11 +23,6 @@ namespace QuickTab.Models
                 }
             }
         }
-
-        /// <summary>
-        /// Used to sort a group of notes on the same line
-        /// </summary>
-        public int Order { get; private set; }
 
         /// <summary>
         /// This note as text
@@ -65,12 +60,10 @@ namespace QuickTab.Models
         /// Creates a note with the given fret and order
         /// </summary>
         /// <param name="fret">The fret number to play</param>
-        /// <param name="order">The order of this accent in relation to other ITabLineItems</param>
         /// <param name="preceedingSpaces">The number of spaces which preceed this note</param>
-        public Note(int fret, int order, int preceedingSpaces)
+        public Note(int fret, int preceedingSpaces)
         {
             Fret = fret;
-            Order = order;
             PreceedingSpaces = preceedingSpaces;
         }
         #endregion

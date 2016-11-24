@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.ObjectModel;
+﻿using System.Collections.Generic;
 using QuickTab.Generics;
 using QuickTab.Models;
 
@@ -11,70 +10,39 @@ namespace QuickTab.ViewModels
     public class ChordLineViewModel : ViewModelBase, ICompositionLine
     {
         #region [ Properties ]
-        private ObservableCollection<Chord> _models;
-
-        private int _lineNumber;
         /// <summary>
-        /// The line number on which this line of chords resides
-        /// Used to sort chord lines with other ICompositionLines
+        /// The list of chords on this line
         /// </summary>
-        public int LineNumber
-        {
-            get
-            {
-                return _lineNumber;
-            }
-            private set
-            {
-                if(value > 0)
-                {
-                    _lineNumber = value;
-                }
-            }
-        }
+        private List<ICompositionLineItem> _models = new List<ICompositionLineItem>();
 
         /// <summary>
-        /// The lyric content
+        /// The text representing this line of chords
         /// </summary>
         public string Content
         {
             get
             {
-                string lienContent = string.Empty;
+                string lineContent = string.Empty;
 
-                foreach(Chord c in _models)
+                foreach (ICompositionLineItem cli in _models)
                 {
-                    lienContent += c.Name.PadLeft(c.PrecedingSpaces + c.Name.Length);
+                    lineContent += cli.Text.PadLeft(cli.Text.Length + cli.PreceedingSpaces, '-');
                 }
 
-
-                return lienContent;
+                return lineContent;
             }
-        }        
-        #endregion
-
-        #region [ Constructors ]
-        /// <summary>
-        /// Creates a chord line with the specified line number
-        /// </summary>
-        /// <param name="lineNumber">The line on which the chords reside</param>
-        public ChordLineViewModel(int lineNumber)
-        {
-            LineNumber = LineNumber;
-            _models = new ObservableCollection<Chord>();
         }
         #endregion
 
         #region [ Methods ]
         /// <summary>
-        /// Creates a new chord model and adds it to the collection
+        /// Adds a new chord to the end of the list of chords
         /// </summary>
-        /// <param name="name"></param>
-        /// <param name="position"></param>
-        /// <param name="precedingSpaces"></param>
-        public void AddChord(string name, int position, int precedingSpaces)
+        /// <param name="name">The name of the chord</param>
+        /// <param name="preceedingSpaces">The number of spaces preceeding the chord</param>
+        public void AddChord(string name, int preceedingSpaces)
         {
-            _models.Add(new Chord(name, LineNumber, position, precedingSpaces));
+            _models.Add(new Chord(name, preceedingSpaces));
 
             NotifyPropertyChanged("Content");
         }
